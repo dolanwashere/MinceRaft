@@ -1,5 +1,6 @@
 package com.waylon.minceraft.items;
 
+import com.waylon.minceraft.MinceRaft;
 import com.waylon.minceraft.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -10,7 +11,7 @@ public class ItemEmeraldLeggings extends ItemArmor {
 
 	public ItemEmeraldLeggings(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(MinceRaft.CREATIVE_TAB);
 		setUnlocalizedName(Reference.minceraftItems.EMERALDLEGGINGS.getUnlocalizedName());
 		setRegistryName(Reference.minceraftItems.EMERALDLEGGINGS.getRegistryName());	}
 

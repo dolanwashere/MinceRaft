@@ -12,7 +12,7 @@ public class ItemObsidianHelmet extends ItemArmor {
 
 	public ItemObsidianHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(MinceRaft.CREATIVE_TAB);
 		setUnlocalizedName(Reference.minceraftItems.OBSIDIANHELMET.getUnlocalizedName());
 		setRegistryName(Reference.minceraftItems.OBSIDIANHELMET.getRegistryName());
 	}
