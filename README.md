@@ -1,4 +1,4 @@
-<h1>MinceRaft v0.1.0
+<h1>MinceRaft v0.1.0</h1>
 
 <p>My first Minecraft Forge mod. 
 Nothing special, just a few things that I've added to the game to help me learn Java and Forge modding.
