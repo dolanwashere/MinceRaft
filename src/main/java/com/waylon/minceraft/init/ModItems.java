@@ -8,6 +8,16 @@ import com.waylon.minceraft.items.ItemDiamondBow;
 import com.waylon.minceraft.items.ItemDiamondBowBroken;
 import com.waylon.minceraft.items.ItemDick;
 import com.waylon.minceraft.items.ItemDough;
+import com.waylon.minceraft.items.ItemEmeraldAxe;
+import com.waylon.minceraft.items.ItemEmeraldBoots;
+import com.waylon.minceraft.items.ItemEmeraldChestplate;
+import com.waylon.minceraft.items.ItemEmeraldHelmet;
+import com.waylon.minceraft.items.ItemEmeraldHoe;
+import com.waylon.minceraft.items.ItemEmeraldLeggings;
+import com.waylon.minceraft.items.ItemEmeraldPickaxe;
+import com.waylon.minceraft.items.ItemEmeraldRod;
+import com.waylon.minceraft.items.ItemEmeraldShovel;
+import com.waylon.minceraft.items.ItemEmeraldSword;
 import com.waylon.minceraft.items.ItemFlour;
 import com.waylon.minceraft.items.ItemGrilledCheeseSandwich;
 import com.waylon.minceraft.items.ItemNachoCheese;
@@ -66,12 +76,23 @@ public class ModItems {
 	public static Item obsidianboots;
 	//Emerald Armor and Tools
 	public static Item emeraldaxe;
+	public static Item emeraldpickaxe;
+	public static Item emeraldshovel;
+	public static Item emeraldhoe;
+	public static Item emeraldsword;
+	public static Item emeraldrod;
+	public static Item emeraldhelmet;
+	public static Item emeraldchestplate;
+	public static Item emeraldleggings;
+	public static Item emeraldboots;
 	//Misc. Items
 	public static Item dick;
 	
 	//Custom Tool and Armor Materials
 	public static final Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("obsidianToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
 	public static final ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("obsidianArmorMaterial", "minceraft:obsidianarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
+	public static final Item.ToolMaterial emeraldToolMaterial = EnumHelper.addToolMaterial("emeraldToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
+	public static final ArmorMaterial emeraldArmorMaterial = EnumHelper.addArmorMaterial("emeraldArmorMaterial", "minceraft:emeraldarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
 	
 	public static void init() {
 		//Food and Food Items
@@ -98,6 +119,17 @@ public class ModItems {
 		obsidianchestplate = new ItemObsidianChestplate(obsidianArmorMaterial, 1, EntityEquipmentSlot.CHEST);
 		obsidianleggings = new ItemObsidianLeggings(obsidianArmorMaterial, 2, EntityEquipmentSlot.LEGS);
 		obsidianboots = new ItemObsidianBoots(obsidianArmorMaterial, 1, EntityEquipmentSlot.FEET);
+		//Emerald Armor and Tools
+		emeraldaxe = new ItemEmeraldAxe(emeraldToolMaterial);
+		emeraldpickaxe = new ItemEmeraldPickaxe(emeraldToolMaterial);
+		emeraldsword = new ItemEmeraldSword(emeraldToolMaterial);
+		emeraldhoe = new ItemEmeraldHoe(emeraldToolMaterial);
+		emeraldshovel = new ItemEmeraldShovel(emeraldToolMaterial);
+		emeraldrod = new ItemEmeraldRod();
+		emeraldhelmet = new ItemEmeraldHelmet(emeraldArmorMaterial, 1, EntityEquipmentSlot.HEAD);
+		emeraldchestplate = new ItemEmeraldChestplate(emeraldArmorMaterial, 1, EntityEquipmentSlot.CHEST);
+		emeraldleggings = new ItemEmeraldLeggings(emeraldArmorMaterial, 2, EntityEquipmentSlot.LEGS);
+		emeraldboots = new ItemEmeraldBoots(emeraldArmorMaterial, 1, EntityEquipmentSlot.FEET);
 		//Misc. Items
 		dick = new ItemDick();
 	}
@@ -127,6 +159,17 @@ public class ModItems {
 		GameRegistry.register(obsidianchestplate);
 		GameRegistry.register(obsidianleggings);
 		GameRegistry.register(obsidianboots);
+		//Emerald Armor and Tools
+		GameRegistry.register(emeraldaxe);
+		GameRegistry.register(emeraldpickaxe);
+		GameRegistry.register(emeraldshovel);
+		GameRegistry.register(emeraldsword);
+		GameRegistry.register(emeraldhoe);
+		GameRegistry.register(emeraldrod);
+		GameRegistry.register(emeraldhelmet);
+		GameRegistry.register(emeraldchestplate);
+		GameRegistry.register(emeraldleggings);
+		GameRegistry.register(emeraldboots);
 		//Misc. Items
 		GameRegistry.register(dick);
 	}
@@ -156,6 +199,17 @@ public class ModItems {
 		registerRender(obsidianchestplate);
 		registerRender(obsidianleggings);
 		registerRender(obsidianboots);
+		//Emerald Armor and Tools
+		registerRender(emeraldaxe);
+		registerRender(emeraldpickaxe);
+		registerRender(emeraldshovel);
+		registerRender(emeraldsword);
+		registerRender(emeraldhoe);
+		registerRender(emeraldrod);
+		registerRender(emeraldhelmet);
+		registerRender(emeraldchestplate);
+		registerRender(emeraldleggings);
+		registerRender(emeraldboots);
 		//Misc. Items
 		registerRender(dick);
 	}

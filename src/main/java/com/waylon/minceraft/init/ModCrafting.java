@@ -23,6 +23,17 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianchestplate), "O O", "OOO","OOO", 'O', Blocks.OBSIDIAN);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianleggings), "OOO", "O O", "O O", 'O', Blocks.OBSIDIAN);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianboots), "   ", "O O", "O O", 'O', Blocks.OBSIDIAN);
+		//Emerald Armor and Tools
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldpickaxe), "OOO", " R ", " R ", 'O', Items.EMERALD, 'R', ModItems.emeraldrod);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldaxe), "OO ", "OR ", " R ", 'O', Items.EMERALD, 'R', ModItems.emeraldrod);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldsword), " O ", " O ", " R ", 'O', Items.EMERALD, 'R', ModItems.emeraldrod);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldshovel), " O ", " R ", " R ", 'O', Items.EMERALD, 'R', ModItems.emeraldrod);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldhoe), "OO ", " R ", " R ", 'O', Items.EMERALD, 'R', ModItems.emeraldrod);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldrod), " R", " R", 'R', Items.EMERALD);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldhelmet), "OOO", "O O", "   ", 'O', Items.EMERALD);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldchestplate), "O O", "OOO","OOO", 'O', Items.EMERALD);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldleggings), "OOO", "O O", "O O", 'O', Items.EMERALD);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldboots), "   ", "O O", "O O", 'O', Items.EMERALD);
 		//Food
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cheese, 3), Items.MILK_BUCKET, ModItems.cheesecloth);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.churro), "   ", "SSS", "BBB", 'S', Items.SUGAR, 'B', Items.BREAD);
