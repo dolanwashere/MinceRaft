@@ -1,11 +1,11 @@
 [
 {
-  "modid": "firstmod",
-  "name": "First Mod",
+  "modid": "minceraft",
+  "name": "MinceRaft",
   "description": "fuck",
-  "version": "1.0",
+  "version": "0.1.0",
   "mcversion": "1.11.2",
-  "url": "",
+  "url": "https://github.com/gyrobone/minceraft",
   "updateUrl": "",
   "authorList": ["gyrobone"],
   "logoFile": "",

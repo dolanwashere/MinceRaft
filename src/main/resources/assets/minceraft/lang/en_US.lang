@@ -16,12 +16,22 @@ item.obsidianleggings.name=Obsidian Leggings
 item.obsidianboots.name=Obsidian Boots
 item.dough.name=Dough
 item.tortilla.name=Tortilla
-item.tortillachips.name=Tortilla
+item.tortillachips.name=Tortilla Chips
 item.nachos.name=Nachos
 item.nachocheese.name=Nacho Cheese
 item.flour.name=Flour
 item.rollingpin.name=Rolling Pin
 item.quesadilla.name=Quesadilla
+item.emeraldaxe.name=Emerald Axe
+item.emeraldpickaxe.name=Emerald Pickaxe
+item.emeraldshovel.name=Emerald Shovel
+item.emeraldsword.name=Emerald Sword
+item.emeraldhoe.name=Emerald Hoe
+item.emeraldhelmet.name=Emerald Helmet
+item.emeraldchestplate.name=Emerald Chestplate
+item.emeraldleggings.name=Emerald Leggings
+item.emeraldboots.name=Emerald Boots
+item.emeraldrod.name=Emerald Rod
 
 tile.cheesecube.name=Cheese Cube
 

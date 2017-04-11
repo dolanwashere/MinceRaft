@@ -10,8 +10,8 @@ public class ItemEmeraldPickaxe extends ItemPickaxe {
 	public ItemEmeraldPickaxe(ToolMaterial material) {
 		super(material);
 		setCreativeTab(MinceRaft.CREATIVE_TAB);
-		setUnlocalizedName(Reference.minceraftItems.OBSIDIANPICKAXE.getUnlocalizedName());
-		setRegistryName(Reference.minceraftItems.OBSIDIANPICKAXE.getRegistryName());
+		setUnlocalizedName(Reference.minceraftItems.EMERALDPICKAXE.getUnlocalizedName());
+		setRegistryName(Reference.minceraftItems.EMERALDPICKAXE.getRegistryName());
 	}
 
 }

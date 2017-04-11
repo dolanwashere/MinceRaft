@@ -10,8 +10,8 @@ public class ItemEmeraldShovel extends ItemSpade {
 	public ItemEmeraldShovel(ToolMaterial material) {
 		super(material);
 		setCreativeTab(MinceRaft.CREATIVE_TAB);
-		setUnlocalizedName(Reference.minceraftItems.OBSIDIANSHOVEL.getUnlocalizedName());
-		setRegistryName(Reference.minceraftItems.OBSIDIANSHOVEL.getRegistryName());
+		setUnlocalizedName(Reference.minceraftItems.EMERALDSHOVEL.getUnlocalizedName());
+		setRegistryName(Reference.minceraftItems.EMERALDSHOVEL.getRegistryName());
 	}
 
 }

@@ -9,7 +9,7 @@ public class ItemEmeraldRod extends Item {
 
 	public ItemEmeraldRod() {
 		setCreativeTab(MinceRaft.CREATIVE_TAB);
-		setUnlocalizedName(Reference.minceraftItems.OBSIDIANROD.getUnlocalizedName());
-		setRegistryName(Reference.minceraftItems.OBSIDIANROD.getRegistryName());
+		setUnlocalizedName(Reference.minceraftItems.EMERALDROD.getUnlocalizedName());
+		setRegistryName(Reference.minceraftItems.EMERALDROD.getRegistryName());
 	}
 }
