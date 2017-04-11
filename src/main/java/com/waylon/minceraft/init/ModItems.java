@@ -42,6 +42,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -87,9 +88,9 @@ public class ModItems {
 	
 	//Custom Tool and Armor Materials
 	public static final Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("obsidianToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
-	public static final ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("obsidianArmorMaterial", "minceraft:obsidianarmor", 50, new int[]{3, 8, 6, 3}, 30, null, 8F);
+	public static final ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("obsidianArmorMaterial", "minceraft:obsidianarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
 	public static final Item.ToolMaterial emeraldToolMaterial = EnumHelper.addToolMaterial("emeraldToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
-	public static final ArmorMaterial emeraldArmorMaterial = EnumHelper.addArmorMaterial("emeraldArmorMaterial", "minceraft:emeraldarmor", 50, new int[]{3, 8, 6, 3}, 30, null, 8F);
+	public static final ArmorMaterial emeraldArmorMaterial = EnumHelper.addArmorMaterial("emeraldArmorMaterial", "minceraft:emeraldarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
 	
 	public static void init() {
 		//Food and Food Items
