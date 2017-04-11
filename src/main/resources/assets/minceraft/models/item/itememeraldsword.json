@@ -1,6 +1,6 @@
 {
-    "parent": "builtin/generated",
+    "parent": "item/handheld",
     "textures": {
-        "layer0": "minceraft:items/cheese"
+        "layer0": "minceraft:items/emeraldsword"
     }
 }
