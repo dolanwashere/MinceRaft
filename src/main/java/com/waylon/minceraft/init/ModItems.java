@@ -47,7 +47,6 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
-	//Test
 	//Food and Food Items
 	public static Item cheese;
 	public static Item grilledcheese;
