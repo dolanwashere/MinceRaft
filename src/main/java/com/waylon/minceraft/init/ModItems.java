@@ -1,11 +1,8 @@
 package com.waylon.minceraft.init;
 
-import com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory.Default;
 import com.waylon.minceraft.items.ItemCheese;
 import com.waylon.minceraft.items.ItemCheeseCloth;
 import com.waylon.minceraft.items.ItemChurro;
-import com.waylon.minceraft.items.ItemDiamondBow;
-import com.waylon.minceraft.items.ItemDiamondBowBroken;
 import com.waylon.minceraft.items.ItemDick;
 import com.waylon.minceraft.items.ItemDough;
 import com.waylon.minceraft.items.ItemEmeraldAxe;
@@ -90,9 +87,9 @@ public class ModItems {
 	
 	//Custom Tool and Armor Materials
 	public static final Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("obsidianToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
-	public static final ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("obsidianArmorMaterial", "minceraft:obsidianarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
+	public static final ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("obsidianArmorMaterial", "minceraft:obsidianarmor", 50, new int[]{3, 8, 6, 3}, 30, null, 8F);
 	public static final Item.ToolMaterial emeraldToolMaterial = EnumHelper.addToolMaterial("emeraldToolMaterial", 4, 2000, 20.0F, 5.0F, 30);
-	public static final ArmorMaterial emeraldArmorMaterial = EnumHelper.addArmorMaterial("emeraldArmorMaterial", "minceraft:emeraldarmor", 50, new int[]{3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F);
+	public static final ArmorMaterial emeraldArmorMaterial = EnumHelper.addArmorMaterial("emeraldArmorMaterial", "minceraft:emeraldarmor", 50, new int[]{3, 8, 6, 3}, 30, null, 8F);
 	
 	public static void init() {
 		//Food and Food Items

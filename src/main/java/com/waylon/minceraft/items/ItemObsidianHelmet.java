@@ -1,6 +1,5 @@
 package com.waylon.minceraft.items;
 
-import com.sun.xml.internal.stream.Entity;
 import com.waylon.minceraft.MinceRaft;
 import com.waylon.minceraft.Reference;
 
