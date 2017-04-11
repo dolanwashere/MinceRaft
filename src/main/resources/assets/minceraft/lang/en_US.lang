@@ -1,0 +1,28 @@
+item.cheese.name=Cheese
+item.dick.name=Dick
+item.churro.name=Churro
+item.grilledcheese.name=Grilled Cheese Sandwich
+item.diamondbow.name=Diamond Bow
+item.obsidianaxe.name=Obsidian Axe
+item.obsidianpickaxe.name=Obsidian Pickaxe
+item.obsidiansword.name=Obsidian Sword
+item.obsidianshovel.name=Obsidian Shovel
+item.obsidianhoe.name=Obsidian Hoe
+item.obsidianrod.name=Obsidian Rod
+item.cheesecloth.name=Cheese Cloth
+item.obsidianhelmet.name=Obsidian Helmet
+item.obsidianchestplate.name=Obsidian Chestplate
+item.obsidianleggings.name=Obsidian Leggings
+item.obsidianboots.name=Obsidian Boots
+item.dough.name=Dough
+item.tortilla.name=Tortilla
+item.tortillachips.name=Tortilla
+item.nachos.name=Nachos
+item.nachocheese.name=Nacho Cheese
+item.flour.name=Flour
+item.rollingpin.name=Rolling Pin
+item.quesadilla.name=Quesadilla
+
+tile.cheesecube.name=Cheese Cube
+
+itemGroup.tabMod=My Mod

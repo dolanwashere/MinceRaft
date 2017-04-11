@@ -1,0 +1,15 @@
+[
+{
+  "modid": "firstmod",
+  "name": "First Mod",
+  "description": "fuck",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["gyrobone"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
