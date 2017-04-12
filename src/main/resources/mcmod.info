@@ -2,8 +2,8 @@
 {
   "modid": "minceraft",
   "name": "MinceRaft",
-  "description": "fuck",
-  "version": "0.1.0",
+  "description": "My First Forge Mod",
+  "version": "1.0.0",
   "mcversion": "1.11.2",
   "url": "https://github.com/gyrobone/minceraft",
   "updateUrl": "",
