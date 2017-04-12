@@ -14,6 +14,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 	
 	public static Block cheesecube;
+	public static Block jalapenoplant;
 	
 	public static void init() {
 		cheesecube = new BlockCheeseCube();

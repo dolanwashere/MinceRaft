@@ -17,6 +17,8 @@ import com.waylon.minceraft.items.ItemEmeraldShovel;
 import com.waylon.minceraft.items.ItemEmeraldSword;
 import com.waylon.minceraft.items.ItemFlour;
 import com.waylon.minceraft.items.ItemGrilledCheeseSandwich;
+import com.waylon.minceraft.items.ItemJalapeno;
+import com.waylon.minceraft.items.ItemJalapenoSeed;
 import com.waylon.minceraft.items.ItemNachoCheese;
 import com.waylon.minceraft.items.ItemNachos;
 import com.waylon.minceraft.items.ItemObsidianAxe;
@@ -34,9 +36,11 @@ import com.waylon.minceraft.items.ItemRollingPin;
 import com.waylon.minceraft.items.ItemTortilla;
 import com.waylon.minceraft.items.ItemTortillaChips;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoor.EnumHingePosition;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -59,6 +63,8 @@ public class ModItems {
 	public static Item tortilla;
 	public static Item tortillachips;
 	public static Item flour;
+	public static Item jalapeno;
+	public static Item jalapenoseed;
 	//Obsidian Armor and Tools
 	public static Item obsidianaxe;
 	public static Item obsidianpickaxe;
@@ -105,6 +111,8 @@ public class ModItems {
 		tortilla = new ItemTortilla();
 		tortillachips = new ItemTortillaChips();
 		flour = new ItemFlour();
+		jalapeno =new ItemJalapeno();
+		jalapenoseed = new ItemJalapenoSeed(ModCrops.jalapenoplant, Blocks.FARMLAND);
 		//Obsidian Armor and Tools
 		obsidianaxe = new ItemObsidianAxe(obsidianToolMaterial);
 		obsidianpickaxe = new ItemObsidianPickaxe(obsidianToolMaterial);
@@ -145,6 +153,8 @@ public class ModItems {
 		GameRegistry.register(tortillachips);
 		GameRegistry.register(flour);
 		GameRegistry.register(cheesecloth);
+		GameRegistry.register(jalapeno);
+		GameRegistry.register(jalapenoseed);
 		//Obsidian Armor and Tools
 		GameRegistry.register(obsidianaxe);
 		GameRegistry.register(obsidianpickaxe);
@@ -185,6 +195,8 @@ public class ModItems {
 		registerRender(tortilla);
 		registerRender(tortillachips);
 		registerRender(flour);
+		registerRender(jalapeno);
+		registerRender(jalapenoseed);
 		//Obsidian Armor and Tools
 		registerRender(obsidianaxe);
 		registerRender(obsidianpickaxe);

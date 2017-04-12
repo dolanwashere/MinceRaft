@@ -38,13 +38,14 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cheese, 3), Items.MILK_BUCKET, ModItems.cheesecloth);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.churro), "   ", "SSS", "BBB", 'S', Items.SUGAR, 'B', Items.BREAD);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.dough), ModItems.flour, Items.WATER_BUCKET);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.nachos), ModItems.tortillachips, ModItems.nachocheese);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.nachos), ModItems.tortillachips, ModItems.nachocheese, ModItems.jalapeno);
 		GameRegistry.addSmelting(ModItems.cheese, new ItemStack(ModItems.nachocheese), 0);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.quesadilla), new ItemStack(ModItems.tortilla, 2), ModItems.cheese);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tortilla), ModItems.dough, ModItems.rollingpin);
 		GameRegistry.addSmelting(ModItems.tortilla, new ItemStack(ModItems.tortillachips,3), 0);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flour), Items.WHEAT, Items.SHEARS);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.grilledcheese), "BBB", "CCC", "BBB", 'B', Items.BREAD, 'C', ModItems.cheese);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.jalapenoseed, 3), ModItems.jalapeno);
 		//Food Items
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.cheesecloth, 3), "SSS", "SSS", "SSS", 'S', Items.STRING);
 		GameRegistry.addRecipe(new ItemStack(ModItems.rollingpin), "SSS", 'S', Items.STICK);

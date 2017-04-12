@@ -2,6 +2,7 @@ package com.waylon.minceraft;
 
 import com.waylon.minceraft.init.ModBlocks;
 import com.waylon.minceraft.init.ModCrafting;
+import com.waylon.minceraft.init.ModCrops;
 import com.waylon.minceraft.init.ModItems;
 import com.waylon.minceraft.proxy.CommonProxy;
 
@@ -30,11 +31,15 @@ public class MinceRaft {
 	{
 		System.out.println("Pre Init");
 		
-		ModItems.init();
-		ModItems.register();
+		ModCrops.init();
+		ModCrops.register();
 		
 		ModBlocks.init();
 		ModBlocks.register();
+		
+		ModItems.init();
+		ModItems.register();
+		
 	}
 	
 	@EventHandler 
