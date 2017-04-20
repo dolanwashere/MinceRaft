@@ -1,5 +1,6 @@
 package com.waylon.minceraft;
 
+import com.waylon.minceraft.init.DebugCommand;
 import com.waylon.minceraft.init.ModBlocks;
 import com.waylon.minceraft.init.ModCrafting;
 import com.waylon.minceraft.init.ModCrops;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.MCVERSION)
 public class MinceRaft {
@@ -27,8 +29,7 @@ public class MinceRaft {
 	public static final CreativeTabs CREATIVE_TAB = new ModTab();
 
 	@EventHandler 
-	public void preInit(FMLPreInitializationEvent event)
-	{
+	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre Init");
 		
 		ModCrops.init();
@@ -39,12 +40,10 @@ public class MinceRaft {
 		
 		ModItems.init();
 		ModItems.register();
-		
 	}
 	
 	@EventHandler 
-	public void init(FMLInitializationEvent event)
-	{
+	public void init(FMLInitializationEvent event) {
 		System.out.println("Init");
 		proxy.init();
 		
@@ -52,8 +51,13 @@ public class MinceRaft {
 	}
 	
 	@EventHandler 
-	public void postInit(FMLPostInitializationEvent event)
-	{
+	public void postInit(FMLPostInitializationEvent event) {
 		System.out.println("Post Init");
 	}
+
+	@EventHandler
+	public void serverLoad(FMLServerStartingEvent event)  {
+		event.registerServerCommand(new DebugCommand());
+	}
+	
 }
