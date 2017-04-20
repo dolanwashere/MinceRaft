@@ -50,8 +50,6 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.cheesecloth, 3), "SSS", "SSS", "SSS", 'S', Items.STRING);
 		GameRegistry.addRecipe(new ItemStack(ModItems.rollingpin), "SSS", 'S', Items.STICK);
 		//Misc. Items
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dick), " P "," W ","WWW", 'P', new ItemStack(Items.DYE, 1, 9), 'W', new ItemStack(Items.DYE, 1, 15));
-
 	}
 	
 }

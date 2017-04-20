@@ -3,7 +3,6 @@ package com.waylon.minceraft.init;
 import com.waylon.minceraft.items.ItemCheese;
 import com.waylon.minceraft.items.ItemCheeseCloth;
 import com.waylon.minceraft.items.ItemChurro;
-import com.waylon.minceraft.items.ItemDick;
 import com.waylon.minceraft.items.ItemDough;
 import com.waylon.minceraft.items.ItemEmeraldAxe;
 import com.waylon.minceraft.items.ItemEmeraldBoots;
@@ -89,7 +88,6 @@ public class ModItems {
 	public static Item emeraldleggings;
 	public static Item emeraldboots;
 	//Misc. Items
-	public static Item dick;
 	
 	//Custom Tool and Armor Materials
 	public static final Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("obsidianToolMaterial", 4, 1750, 12.0F, 4.0F, 15);
@@ -136,7 +134,6 @@ public class ModItems {
 		emeraldleggings = new ItemEmeraldLeggings(emeraldArmorMaterial, 2, EntityEquipmentSlot.LEGS);
 		emeraldboots = new ItemEmeraldBoots(emeraldArmorMaterial, 1, EntityEquipmentSlot.FEET);
 		//Misc. Items
-		dick = new ItemDick();
 	}
 
 	public static void register() {
@@ -178,7 +175,6 @@ public class ModItems {
 		GameRegistry.register(emeraldleggings);
 		GameRegistry.register(emeraldboots);
 		//Misc. Items
-		GameRegistry.register(dick);
 	}
 	
 	public static void registerRenders() {
@@ -220,7 +216,6 @@ public class ModItems {
 		registerRender(emeraldleggings);
 		registerRender(emeraldboots);
 		//Misc. Items
-		registerRender(dick);
 	}
 
 	private static void registerRender(Item item) {

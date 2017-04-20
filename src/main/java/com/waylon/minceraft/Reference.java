@@ -46,9 +46,8 @@ public class Reference {
 		EMERALDCHESTPLATE("emeraldchestplate", "ItemEmeraldChestplate"),
 		EMERALDLEGGINGS("emeraldleggings", "ItemEmeraldLeggings"),
 		EMERALDBOOTS("emeraldboots", "ItemEmeraldBoots"),
-		EMERALDROD("emeraldrod", "ItemEmeraldRod"),
+		EMERALDROD("emeraldrod", "ItemEmeraldRod");
 		//Misc. Items
-		DICK("dick", "ItemDick");
 
 		private String unlocalizedName;
 		private String registryName;
