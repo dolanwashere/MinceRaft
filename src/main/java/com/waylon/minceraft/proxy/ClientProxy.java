@@ -21,8 +21,6 @@ public class ClientProxy implements CommonProxy {
 		ModCrops.registerRenders();
 		ModBlocks.registerRenders();
 		ModItems.registerRenders();
-		
-		MobRegistry.register();
 	}
 
 }

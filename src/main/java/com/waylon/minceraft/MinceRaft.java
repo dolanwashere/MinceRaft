@@ -5,9 +5,13 @@ import com.waylon.minceraft.init.ModBlocks;
 import com.waylon.minceraft.init.ModCrafting;
 import com.waylon.minceraft.init.ModCrops;
 import com.waylon.minceraft.init.ModItems;
+import com.waylon.minceraft.init.mobs.MobRegistry;
+import com.waylon.minceraft.init.mobs.entities.EntityMummy;
 import com.waylon.minceraft.proxy.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -16,6 +20,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.MCVERSION)
 public class MinceRaft {
@@ -40,6 +45,8 @@ public class MinceRaft {
 		
 		ModItems.init();
 		ModItems.register();
+		
+		EntityRegistry.addSpawn(EntityMummy.class, 100, 1, 3, EnumCreatureType.MONSTER, Biome.REGISTRY.getObjectById(2));
 	}
 	
 	@EventHandler 
@@ -48,6 +55,7 @@ public class MinceRaft {
 		proxy.init();
 		
 		ModCrafting.register();
+		MobRegistry.register();
 	}
 	
 	@EventHandler 
