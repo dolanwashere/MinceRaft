@@ -26,8 +26,8 @@ public class ItemJalapenoSeed extends Item implements IPlantable {
 		this.crops = crops;
 		this.soilBlockID = soil;
 		setCreativeTab(MinceRaft.CREATIVE_TAB);
-		setUnlocalizedName(Reference.minceraftItems.JALAPENOSEED.getUnlocalizedName());
-		setRegistryName(Reference.minceraftItems.JALAPENOSEED.getRegistryName());
+		//setUnlocalizedName(Reference.minceraftItems.JALAPENOSEED.getUnlocalizedName());
+		//setRegistryName(Reference.minceraftItems.JALAPENOSEED.getRegistryName());
 		
 	}
 

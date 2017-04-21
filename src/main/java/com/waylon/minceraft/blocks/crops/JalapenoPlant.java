@@ -18,6 +18,7 @@ public class JalapenoPlant extends BlockCrops {
 
 	private static final AxisAlignedBB[] JALAPENOPLANT = new AxisAlignedBB[] {new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.125D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.25D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.375D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.5D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.625D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.75D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.875D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D)};
 	
+	/**
 	public JalapenoPlant() {
 		setUnlocalizedName(Reference.minceraftCrops.JALAPENOPLANT.getUnlocalizedName());
 		setRegistryName(Reference.minceraftCrops.JALAPENOPLANT.getRegistryName());
@@ -36,5 +37,6 @@ public class JalapenoPlant extends BlockCrops {
 	public AxisAlignedBB getBoundBox(IBlockState state, IBlockAccess source, BlockPos pos) {
 		return JALAPENOPLANT[(Integer)state.getValue(this.getAgeProperty()).intValue()] ;
 	}
+	**/
 	
 }

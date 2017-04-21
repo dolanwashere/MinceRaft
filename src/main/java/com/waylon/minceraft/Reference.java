@@ -23,8 +23,8 @@ public class Reference {
 		TORTILLACHIPS("tortillachips", "ItemTortillaChips"),
 		FLOUR("flour", "ItemFlour"),
 		CHEESECLOTH("cheesecloth", "ItemCheeseCloth"),
-		JALAPENO("jalapeno", "ItemJalapeno"),
-		JALAPENOSEED("jalapenoseed", "ItemJalapenoSeed"),
+		//JALAPENO("jalapeno", "ItemJalapeno"),
+		//JALAPENOSEED("jalapenoseed", "ItemJalapenoSeed"),
 		//Obsidian Armor and Tools
 		OBSIDIANAXE("obsidianaxe", "ItemObsidianAxe"),
 		OBSIDIANPICKAXE("obsidianpickaxe", "ItemObsidianPickaxe"),
@@ -86,7 +86,7 @@ public class Reference {
 		}
 	}
 
-	public static enum minceraftCrops {
+	/**public static enum minceraftCrops {
 		JALAPENOPLANT("jalapenoplant", "JalapenoPlant");
 		
 		private String unlocalizedName;
@@ -105,5 +105,6 @@ public class Reference {
 			return unlocalizedName;
 		}
 	}
+	**/
 	
 }

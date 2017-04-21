@@ -62,8 +62,8 @@ public class ModItems {
 	public static Item tortilla;
 	public static Item tortillachips;
 	public static Item flour;
-	public static Item jalapeno;
-	public static Item jalapenoseed;
+	//public static Item jalapeno;
+	//public static Item jalapenoseed;
 	//Obsidian Armor and Tools
 	public static Item obsidianaxe;
 	public static Item obsidianpickaxe;
@@ -109,8 +109,8 @@ public class ModItems {
 		tortilla = new ItemTortilla();
 		tortillachips = new ItemTortillaChips();
 		flour = new ItemFlour();
-		jalapeno =new ItemJalapeno();
-		jalapenoseed = new ItemJalapenoSeed(ModCrops.jalapenoplant, Blocks.FARMLAND);
+		//jalapeno =new ItemJalapeno();
+		//jalapenoseed = new ItemJalapenoSeed(ModCrops.jalapenoplant, Blocks.FARMLAND);
 		//Obsidian Armor and Tools
 		obsidianaxe = new ItemObsidianAxe(obsidianToolMaterial);
 		obsidianpickaxe = new ItemObsidianPickaxe(obsidianToolMaterial);
@@ -150,8 +150,8 @@ public class ModItems {
 		GameRegistry.register(tortillachips);
 		GameRegistry.register(flour);
 		GameRegistry.register(cheesecloth);
-		GameRegistry.register(jalapeno);
-		GameRegistry.register(jalapenoseed);
+		//GameRegistry.register(jalapeno);
+		//GameRegistry.register(jalapenoseed);
 		//Obsidian Armor and Tools
 		GameRegistry.register(obsidianaxe);
 		GameRegistry.register(obsidianpickaxe);
@@ -191,8 +191,8 @@ public class ModItems {
 		registerRender(tortilla);
 		registerRender(tortillachips);
 		registerRender(flour);
-		registerRender(jalapeno);
-		registerRender(jalapenoseed);
+		//registerRender(jalapeno);
+		//registerRender(jalapenoseed);
 		//Obsidian Armor and Tools
 		registerRender(obsidianaxe);
 		registerRender(obsidianpickaxe);
