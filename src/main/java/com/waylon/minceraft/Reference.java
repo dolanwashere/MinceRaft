@@ -46,8 +46,9 @@ public class Reference {
 		EMERALDCHESTPLATE("emeraldchestplate", "ItemEmeraldChestplate"),
 		EMERALDLEGGINGS("emeraldleggings", "ItemEmeraldLeggings"),
 		EMERALDBOOTS("emeraldboots", "ItemEmeraldBoots"),
-		EMERALDROD("emeraldrod", "ItemEmeraldRod");
-		//Misc. Items
+		EMERALDROD("emeraldrod", "ItemEmeraldRod"),
+		//Ingots
+		ALUMINUMINGOT("aluminumingot", "ItemAluminumIngot");
 
 		private String unlocalizedName;
 		private String registryName;
@@ -67,7 +68,9 @@ public class Reference {
 	}
 	
 	public static enum minceraftBlocks {
-		CHEESECUBE("cheesecube","BlockCheeseCube");
+		CHEESECUBE("cheesecube","BlockCheeseCube"),
+		//JALAPENOPLANT("jalapenoplant","BlockJalapenoPlant"),
+		ALUMINUMORE("aluminumore", "BlockAluminumOre");
 		
 		private String unlocalizedName;
 		private String registryName;

@@ -49,7 +49,8 @@ public class ModCrafting {
 		//Food Items
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.cheesecloth, 3), "SSS", "SSS", "SSS", 'S', Items.STRING);
 		GameRegistry.addRecipe(new ItemStack(ModItems.rollingpin), "SSS", 'S', Items.STICK);
-		//Misc. Items
+		//Ingots
+		GameRegistry.addSmelting(ModBlocks.aluminumore, new ItemStack(ModItems.aluminumingot), 6);
 	}
 	
 }

@@ -31,8 +31,10 @@ item.emeraldchestplate.name=Emerald Chestplate
 item.emeraldleggings.name=Emerald Leggings
 item.emeraldboots.name=Emerald Boots
 item.emeraldrod.name=Emerald Rod
+item.aluminumingot.name=Aluminum Ingot
 
 tile.cheesecube.name=Cheese Cube
+tile.aluminumore.name=Aluminum Ore
 
 itemGroup.tabMod=My Mod
 

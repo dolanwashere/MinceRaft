@@ -1,8 +1,6 @@
 package com.waylon.minceraft.init;
 
 import com.waylon.minceraft.Reference;
-import com.waylon.minceraft.blocks.crops.JalapenoPlant;
-
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -12,14 +10,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrops {
 
-	public static Block jalapenoplant;
+	//public static Block jalapenoplant;
 
 	public static void init() {
-		jalapenoplant = new JalapenoPlant();
+		//jalapenoplant = new JalapenoPlant();
 	}
 	
 	public static void register() {
-		registerBlock(jalapenoplant);
+		//registerBlock(jalapenoplant);
 	}
 
 	private static void registerBlock(Block block) {
@@ -30,7 +28,7 @@ public class ModCrops {
 	}
 	
 	public static void registerRenders() {
-		registerRender(jalapenoplant);
+		//registerRender(jalapenoplant);
 	}
 	
 	private static void registerRender(Block block) {

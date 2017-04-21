@@ -1,5 +1,6 @@
 package com.waylon.minceraft.init;
 
+import com.waylon.minceraft.blocks.BlockAluminumOre;
 import com.waylon.minceraft.blocks.BlockCheeseCube;
 import com.waylon.minceraft.items.ItemCheese;
 
@@ -15,14 +16,19 @@ public class ModBlocks {
 	
 	public static Block cheesecube;
 	public static Block jalapenoplant;
+	public static Block aluminumore;
 	
 	public static void init() {
 		cheesecube = new BlockCheeseCube();
+		//jalapenoplant = new BlockJalapenoPlant(null);
+		aluminumore = new BlockAluminumOre();
 		
 	}
 	
 	public static void register() {
 		registerBlock(cheesecube);
+		//registerBlock(jalapenoplant);
+		registerBlock(aluminumore);
 	}
 	
 	private static void registerBlock(Block block) {
@@ -34,6 +40,8 @@ public class ModBlocks {
 	
 	public static void registerRenders() {
 		registerRender(cheesecube);
+		//registerRender(jalapenoplant);
+		registerRender(aluminumore);
 	}
 
 	private static void registerRender(Block block) {

@@ -1,5 +1,6 @@
 package com.waylon.minceraft.init;
 
+import com.waylon.minceraft.items.ItemAluminumIngot;
 import com.waylon.minceraft.items.ItemCheese;
 import com.waylon.minceraft.items.ItemCheeseCloth;
 import com.waylon.minceraft.items.ItemChurro;
@@ -87,7 +88,8 @@ public class ModItems {
 	public static Item emeraldchestplate;
 	public static Item emeraldleggings;
 	public static Item emeraldboots;
-	//Misc. Items
+	//Ingots
+	public static Item aluminumingot;
 	
 	//Custom Tool and Armor Materials
 	public static final Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("obsidianToolMaterial", 4, 1750, 12.0F, 4.0F, 15);
@@ -133,7 +135,8 @@ public class ModItems {
 		emeraldchestplate = new ItemEmeraldChestplate(emeraldArmorMaterial, 1, EntityEquipmentSlot.CHEST);
 		emeraldleggings = new ItemEmeraldLeggings(emeraldArmorMaterial, 2, EntityEquipmentSlot.LEGS);
 		emeraldboots = new ItemEmeraldBoots(emeraldArmorMaterial, 1, EntityEquipmentSlot.FEET);
-		//Misc. Items
+		//Ingots
+		aluminumingot = new ItemAluminumIngot();
 	}
 
 	public static void register() {
@@ -174,7 +177,8 @@ public class ModItems {
 		GameRegistry.register(emeraldchestplate);
 		GameRegistry.register(emeraldleggings);
 		GameRegistry.register(emeraldboots);
-		//Misc. Items
+		//Ingots
+		GameRegistry.register(aluminumingot);
 	}
 	
 	public static void registerRenders() {
@@ -215,7 +219,8 @@ public class ModItems {
 		registerRender(emeraldchestplate);
 		registerRender(emeraldleggings);
 		registerRender(emeraldboots);
-		//Misc. Items
+		//Ingots
+		registerRender(aluminumingot);
 	}
 
 	private static void registerRender(Item item) {
