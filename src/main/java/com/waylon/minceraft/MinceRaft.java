@@ -55,7 +55,8 @@ public class MinceRaft {
 		proxy.init();
 		
 		ModCrafting.register();
-		MobRegistry.register();
+		MobRegistry.registerRender();
+		MobRegistry.registerEntity();
 	}
 	
 	@EventHandler 

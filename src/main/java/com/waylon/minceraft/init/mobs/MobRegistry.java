@@ -23,14 +23,14 @@ public class MobRegistry {
 	public static MobRegistry instance() {
 		return INSTANCE;
 	}
-	
+	/**
 	public static void register() {
 		
 		MobRegistry.registerRender();
 		MobRegistry.registerEntity();
 		
 	}
-	
+	**/
 	public static void registerRender() {
 		RenderingRegistry.registerEntityRenderingHandler(EntityMummy.class, new RenderMummy(Minecraft.getMinecraft().getRenderManager(), new ModelMummy(), 0.5F));
 	}
