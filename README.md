@@ -1,4 +1,4 @@
-<h1>MinceRaft v1.0.0</h1>
+<h1>MinceRaft v1.0.4</h1>
 <h2>Made for Minecraft Forge 1.11.2</h2>
 
 <p>My first Minecraft Forge mod. 
