@@ -9,6 +9,7 @@ item.obsidianshovel.name=Obsidian Shovel
 item.obsidianhoe.name=Obsidian Hoe
 item.obsidianrod.name=Obsidian Rod
 item.cheesecloth.name=Cheese Cloth
+item.jalapeno.name=Jalapeno
 item.obsidianhelmet.name=Obsidian Helmet
 item.obsidianchestplate.name=Obsidian Chestplate
 item.obsidianleggings.name=Obsidian Leggings
@@ -35,6 +36,7 @@ item.aluminumingot.name=Aluminum Ingot
 
 tile.cheesecube.name=Cheese Cube
 tile.aluminumore.name=Aluminum Ore
+tiel.jalapeno.name=Jalapeno
 
 itemGroup.tabMod=My Mod
 

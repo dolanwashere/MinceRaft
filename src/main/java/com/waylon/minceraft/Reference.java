@@ -69,7 +69,7 @@ public class Reference {
 	
 	public static enum minceraftBlocks {
 		CHEESECUBE("cheesecube","BlockCheeseCube"),
-		//JALAPENOPLANT("jalapenoplant","BlockJalapenoPlant"),
+		JALAPENO("jalapeno","BlockJalapeno"),
 		ALUMINUMORE("aluminumore", "BlockAluminumOre");
 		
 		private String unlocalizedName;

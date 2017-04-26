@@ -3,7 +3,6 @@ package com.waylon.minceraft;
 import com.waylon.minceraft.init.DebugCommand;
 import com.waylon.minceraft.init.ModBlocks;
 import com.waylon.minceraft.init.ModCrafting;
-import com.waylon.minceraft.init.ModCrops;
 import com.waylon.minceraft.init.ModItems;
 import com.waylon.minceraft.init.mobs.MobRegistry;
 import com.waylon.minceraft.init.mobs.entities.EntityMummy;
@@ -36,9 +35,6 @@ public class MinceRaft {
 	@EventHandler 
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre Init");
-		
-		ModCrops.init();
-		ModCrops.register();
 		
 		ModBlocks.init();
 		ModBlocks.register();

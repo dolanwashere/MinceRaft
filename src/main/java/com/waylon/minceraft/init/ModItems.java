@@ -1,5 +1,6 @@
 package com.waylon.minceraft.init;
 
+import com.waylon.minceraft.Reference;
 import com.waylon.minceraft.items.ItemAluminumIngot;
 import com.waylon.minceraft.items.ItemCheese;
 import com.waylon.minceraft.items.ItemCheeseCloth;
@@ -46,6 +47,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemSeeds;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -63,6 +66,7 @@ public class ModItems {
 	public static Item tortilla;
 	public static Item tortillachips;
 	public static Item flour;
+	public static Item jalapeno;
 	//public static Item jalapeno;
 	//public static Item jalapenoseed;
 	//Obsidian Armor and Tools
@@ -111,6 +115,7 @@ public class ModItems {
 		tortilla = new ItemTortilla();
 		tortillachips = new ItemTortillaChips();
 		flour = new ItemFlour();
+		jalapeno = new ItemSeeds(ModBlocks.jalapeno, Blocks.FARMLAND).setUnlocalizedName(Reference.minceraftBlocks.JALAPENO.getUnlocalizedName()).setRegistryName(Reference.minceraftBlocks.JALAPENO.getRegistryName());
 		//jalapeno =new ItemJalapeno();
 		//jalapenoseed = new ItemJalapenoSeed(ModCrops.jalapenoplant, Blocks.FARMLAND);
 		//Obsidian Armor and Tools
@@ -153,6 +158,7 @@ public class ModItems {
 		GameRegistry.register(tortillachips);
 		GameRegistry.register(flour);
 		GameRegistry.register(cheesecloth);
+		GameRegistry.register(jalapeno);
 		//GameRegistry.register(jalapeno);
 		//GameRegistry.register(jalapenoseed);
 		//Obsidian Armor and Tools
@@ -195,6 +201,7 @@ public class ModItems {
 		registerRender(tortilla);
 		registerRender(tortillachips);
 		registerRender(flour);
+		registerRender(jalapeno);
 		//registerRender(jalapeno);
 		//registerRender(jalapenoseed);
 		//Obsidian Armor and Tools

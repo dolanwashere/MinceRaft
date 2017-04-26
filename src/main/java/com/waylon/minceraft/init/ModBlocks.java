@@ -2,6 +2,7 @@ package com.waylon.minceraft.init;
 
 import com.waylon.minceraft.blocks.BlockAluminumOre;
 import com.waylon.minceraft.blocks.BlockCheeseCube;
+import com.waylon.minceraft.blocks.BlockJalapeno;
 import com.waylon.minceraft.items.ItemCheese;
 
 import net.minecraft.block.Block;
@@ -15,13 +16,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 	
 	public static Block cheesecube;
-	public static Block jalapenoplant;
+	public static Block jalapeno;
 	public static Block aluminumore;
 	
 	public static void init() {
 		cheesecube = new BlockCheeseCube();
 		//jalapenoplant = new BlockJalapenoPlant(null);
 		aluminumore = new BlockAluminumOre();
+		jalapeno = new BlockJalapeno();
 		
 	}
 	
@@ -29,6 +31,7 @@ public class ModBlocks {
 		registerBlock(cheesecube);
 		//registerBlock(jalapenoplant);
 		registerBlock(aluminumore);
+		GameRegistry.register(jalapeno);
 	}
 	
 	private static void registerBlock(Block block) {
